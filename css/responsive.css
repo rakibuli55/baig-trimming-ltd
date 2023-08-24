@@ -1,0 +1,427 @@
+@media (min-width: 1200px){
+	.container{
+		max-width: 1200px!important;
+	}
+}
+@media (max-width:1250px){
+	.popup_wrapper .product_main{
+		max-width: 100rem;
+	}
+}
+@media (max-width: 1200px){
+	.product_slider .owl-prev {
+		left: -1rem;
+	}
+	.product_slider .owl-next {
+		right: -1rem;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	.container{
+		max-width: 980px;
+	}
+	html{
+		font-size: 54.2%;
+	}
+	.choose_area .right_column{
+		padding-right: calc((100% - 980px) / 2 + 5px);
+	}
+}
+@media (min-width: 1024px) and (max-width: 1080.98px){
+	.menu li a{
+		margin-right: 2.5rem;
+	}
+}
+@media (max-width:1199.98px){
+	.headoffice, .factory {
+	    padding: 0.4rem 1rem;
+	}
+	.button{
+		padding: 1rem 2.5rem;
+	}
+	.check_box p{
+		font-size: 1.5rem;
+	}
+	.home_slider .item h1 {
+		font-size: 5rem;
+	}
+	.about_area .about_content h2,
+	.message_content h2 {
+		font-size: 3.5rem;
+	}
+	.about_content .misson_area {
+		margin-top: 1.5rem;
+	}
+	.sec_title h2{
+		font-size: 3.5rem;
+	}
+	.about_btn {
+		margin-top: 3rem;
+	}
+	.carier_content h1 {
+    	font-size: 4.5rem;
+	}
+	.carier_content h3{
+		font-size: 4rem;
+	}
+	.crying_img{
+		top: 5rem;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+	.container{
+		max-width: 750px;
+	}
+	html{
+		font-size: 44.5%;
+	}
+}
+@media (max-width: 991.98px){
+	header .container{
+		position: relative;
+	}
+	header.sticky .menu li a{
+		color: #fff;
+	}
+	.menu {
+    	margin-left:0;
+	}
+	.menu_wrapper{
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: -100%;
+		background-color:#21283e;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 10rem;
+		z-index: -1;
+		transition: 0.3s;
+	}
+	.menu_wrapper.current{
+		left: 0;
+		transition: 0.3s;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu li a{
+		margin-right: 0;
+		margin-top: 1.2rem;
+		display: inline-block;
+	}
+	.hamburger-menu{
+		display: block;
+	}
+	.service_box img {
+		width: 5rem;
+		height: 5rem;
+	}
+	.header_btn{
+		margin-left: 3.8rem;
+		margin-top: 2rem;
+	}
+	.home_area,
+	.home_slider .item{
+		height: 90vh;
+	}
+	.service_inner_area{
+		display: none;
+	}
+	.about_area .img_area{
+		margin-right: 0;
+	}
+	.about_area .img_area .img1{
+		width: 100%;
+	}
+	.about_area .img_area,
+	.about_area .img_area img{
+		height: 63.8rem;
+	}
+	.product_slider .owl-prev {
+		left: -2rem;
+	}
+	.product_slider .owl-next {
+		right: -2rem;
+	}
+	footer .map_area iframe{
+		height: 11rem;
+	}
+	.about_content .misson_area {
+		margin-top: 3rem;
+	}
+	.choose_area .right_column {
+		padding-left: 4rem;
+		padding-right: calc((100% - 750px) / 2 + 5px);
+	}
+	.testimonial_area .owl-stage {
+	    padding-bottom: 4.5rem;
+	}
+	.carier_page header .menu li a{
+  		color: #fff;
+	}
+}
+@media (max-width: 767.98px){
+	html{
+		font-size: 47.5%;
+	}
+	.custom_row{
+		display: block;
+	}
+	.about_content{
+		margin-top: 6rem;
+	}
+	.sub_title{
+		margin-bottom: 0.5rem;
+	}
+	.about_content .mt_20{
+		margin-top: 10px !important;
+	}
+	.about_content .misson_area {
+		margin-top: 2rem;
+	}
+	.about_area .img_area .img2{
+		border-right:0;
+	}
+	.choose_content h3 {
+		font-size: 3.6rem;
+	}
+	.headoffice h5, .factory h5,
+	.headoffice p, .factory p{
+		font-size: 1.6rem;
+	}
+	footer .map_area iframe {
+		height: 14.2rem;
+	}
+	.about_area .img_area, .about_area .img_area img {
+		height: 55.8rem;
+	}
+	.choose_area .row{
+		display: block !important;
+	}
+	.choose_area .left_column,
+	.choose_area .right_column{
+		max-width: 100%;
+	}
+	.choose_area .left_column{
+		position: relative;
+	}
+	.choose_area{
+		padding-left:calc((100% - 540px) / 2 + 5px);
+		padding-right:calc((100% - 540px) / 2 + 5px);
+	}
+	.choose_area .right_column{
+		padding-left: 0;
+		margin-top: 3rem;
+	}	.choose_box .content {
+		min-width: 86.5%;
+		min-height: 9rem;
+	}
+	.chairman_img {
+	    margin-top: 4rem;
+	    padding-left: 0rem;
+	}
+	.paly{
+		top: 44%;
+	}
+	.product_column{
+		padding-left: calc(var(--bs-gutter-x) * .5);
+	}
+	.carier_area{
+		padding:5rem 0;
+	}
+	.carier_area .column_1{
+		order: 2;
+	}
+	.carier_area .column_2{
+		order: 1;
+	}
+	.popup_wrapper .product_main {
+	    max-width: 70rem;
+	}
+	.popup_wrapper .product_info_box {
+	    max-width: 30rem;
+	}
+	.popup_wrapper .product_info_box h3 {
+	    padding: 1rem 2rem;
+	}
+	.popup_wrapper .product_info_box{
+		margin-left: 2rem;
+	}
+	.pop_close {
+	    top: 0.4rem;
+	    right: 0.5rem;
+	}
+
+}
+@media (max-width: 575.98px){
+	.home_slider .item h1 {
+		font-size: 3rem;
+	}
+	.home_slider .item .sub_title{
+		font-size: 2.5rem;
+	}
+	.home_area, .home_slider .item{
+		height: 68vh;
+	}
+	.about_area,
+	.product_area,
+	.testimonial_area,
+	.blog_area,
+	.directors_area,
+	.about_area {
+		padding: 5rem 0;
+	}
+	.misson_area{
+		flex-direction: column;
+	}
+	.mission, .vision{
+		max-width: 100%;
+	}
+	.mission{
+		order: 2;
+		margin-top: 2rem;
+	}
+	.vision{
+		order: 1;
+	}
+	.img_area .experience p span{
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+	.message_area {
+    	margin-bottom: 5rem;
+	}
+	.testimonial_area{
+		padding-bottom: 1rem;
+	}
+	.about_area .img_area, .about_area .img_area img {
+		height: 42.8rem;
+	}
+	.about_area .img_area .img2{
+		height: 32rem;
+	}
+	.about_area .about_content h2,
+	.sec_title h2,
+	.choose_content h3,
+	.carier_content h1,
+	.carier_content h3,
+	.certificate_area h2,
+	.contact_area .title h1,
+	.inner_home h1{
+		font-size: 3rem;
+	}
+	.contact_area .title h3{
+		font-size: 2rem;
+	}
+	.product_slider .product_content h4{
+		font-size: 2rem;
+	}
+	.rating_area i {
+		color: #ffe425;
+		font-size: 1.2rem;
+	}
+	.testimonial_area .testi_box .testi_content {
+		padding: 1rem;
+	}
+	.testimonial_area .testi_box{
+		max-height: 27.5rem;
+	}
+	.choose_area,
+	.contact_area{
+		margin-right: 5px;
+		margin-left: 5px;
+		padding: 0;
+	}
+	.choose_box .content {
+		min-width: 86.5%;
+		min-height: 9rem;
+	}
+	.choose_box .content {
+		min-width: 84%;
+		min-height: auto;
+	}
+	.choose_content .choose_box .icon{
+		max-width: 18%;
+	}
+	.choose_box .content {
+		min-width: 78%;
+	}
+	.product_area{
+		padding-bottom: 0;
+	}
+	.sec_title .bottom{
+		max-width: 100%;
+	}
+	.product_slider .owl-prev,
+	.director_slider .owl-prev {
+	    left: 0rem;
+	}
+	.product_slider .owl-next,
+	.director_slider .owl-next {
+	   right: 0rem;
+	}
+	.message_content::before{
+		height: 20rem;
+		width: 20rem;
+	}
+	.choose_area .left_column img,
+	.choose_area .left_column .choose_img::before,
+	.choose_area .left_column .choose_img,
+	.choose_area .left_column{
+		height: 30rem;
+	}
+	.crying_img img{
+		width: 4rem;
+		height: 4rem;
+	}
+	.crying_img::before{
+		width: 3rem;
+		height: 3rem;
+	}
+	.crying_img {
+    	top: 4rem;
+	}
+	.carier_content h3{
+		padding-left: 4rem;
+	}
+	.popup_wrapper{
+		height: 100%;
+		overflow: auto;
+		padding: 2rem;
+	}
+	.popup_wrapper .product_main{
+		display: block;
+		max-width: 100%;
+	}
+	.popup_wrapper .product_main .img_area,
+	.popup_wrapper .product_main .product_deatil{
+	  max-width: 100%;
+	}
+	.popup_wrapper .product_main .img_area{
+		position: relative;
+		height: 22rem;
+	}
+	.popup_wrapper .product_main .img_area img{
+		height: 100%;
+	}
+	.popup_wrapper .product_info_box{
+		max-width: 100%;
+		margin:0;
+	}
+	.pro_info {
+	    padding: 2rem;
+	}
+	.client_area .item .img_area p{
+		font-size: 1.6rem;
+	}
+	.img_area .experience p {
+	    font-size: 4rem;
+	}
+	.carier_page{
+		overflow: hidden;
+	}
+
+}
